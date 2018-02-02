@@ -1,0 +1,27 @@
+{
+  "name": "michelin",
+  "version": "1.0.0",
+  "description": "scapes list of French starred restaurants",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "french",
+    "starred",
+    "restaurants"
+  ],
+  "author": "Yassin Hassan",
+  "license": "(MIT OR Apache-2.0)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Yaskomega/michelin.git"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.2",
+    "handlebars": "^4.0.11",
+    "path": "^0.12.7",
+    "request": "^2.83.0"
+  }
+}
